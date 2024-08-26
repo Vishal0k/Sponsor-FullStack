@@ -1,0 +1,106 @@
+/* General styling for the app container */
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Logo styling */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease;
+}
+
+.App-logo:hover {
+  filter: brightness(1.2);
+}
+
+/* Animation for the logo when motion is preferred */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Header styling */
+.App-header {
+  background: linear-gradient(180deg, rgba(25, 118, 210, 0.8), rgba(25, 118, 210, 1));
+  border-bottom: 2px solid #0288d1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Link styling */
+.App-link {
+  color: #00bcd4;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.App-link:hover {
+  color: #ff4081;
+  text-decoration: underline;
+  text-shadow: 0 2px 4px rgba(255, 105, 180, 0.5);
+}
+
+/* Keyframes for logo spin animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Additional styles for more refined UI */
+button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #0097a7;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+  background-color: #00838f;
+  transform: scale(0.95);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+input, textarea {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  border-color: #00bcd4;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 188, 212, 0.4);
+}

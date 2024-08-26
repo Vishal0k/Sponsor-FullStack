@@ -1,0 +1,31 @@
+/* General body styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Simplified and modern font stack */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f9fc; /* Light background for better readability */
+  color: #333; /* Dark text color for better contrast */
+}
+
+/* Code styling */
+code {
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 0.95rem; /* Slightly smaller font size for code */
+  background-color: #f1f1f1; /* Light gray background for code blocks */
+  border-radius: 4px; /* Rounded corners for code background */
+  padding: 2px 4px; /* Padding for better readability */
+  color: #d63384; /* Slightly vibrant color for code text */
+}
+
+/* Optional: Additional styling for code blocks */
+pre {
+  font-family: 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 0.9rem; /* Slightly smaller font size for code blocks */
+  background-color: #282c34; /* Dark background for code blocks */
+  color: #abb2bf; /* Light color for code text */
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto; /* Horizontal scroll for long lines of code */
+  white-space: pre-wrap; /* Preserve whitespace formatting */
+}
